@@ -1,0 +1,26 @@
+wikipedia page -> array of artists -> rym formatted artists  -> array of rym links -> array of artists
+
+
+rym formatted artists:
+
+    remove (band), , ' . 
+
+dynamodb, 
+
+Artist:
+    name                    [string]
+    number of bolded albums [int]
+    ALBUMS                  [array-objects]
+    avg score               [int]
+    genres                  [array-string]
+
+ALBUMS:
+    title                   [string]
+    score                   [string]
+
+
+
+    
+couldnt get rating
+number of critically acclaimed albums 1
+{'albums': [{'title': '(how to live) As Ghosts', 'rating': '82'}], 'name': '10 Years', 'acclaimed_albums_count': 1}
